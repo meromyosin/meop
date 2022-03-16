@@ -16,15 +16,24 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<script src="https://api.countapi.xyz/hit/gusmeadows/meop?callback=liveViews" async></script>
+		<script>
+		function liveViews(response) {
+    document.getElementById('visits').innerText = response.value;
+}
+		</script>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<section data-markdown data-autoslide="4000">
-					## Swipe up for next stanza  
-					## Swipe right for next page  
+					<script type="text/template">
+					### Swipe up for next stanza  
+					### Swipe right for next page  
     
 					SPACE-Next : ESC-Overview  
+					<div  id="visits">....</div>
+					</script>
 				</section>
 				
 				<section>
