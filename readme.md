@@ -1,2 +1,2 @@
 Using revealjs to showcase my poems
-[visit here](https://gusmeadows.github.io/meop)
+[visit here](https://meromyosin.github.io/meop)
